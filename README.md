@@ -29,6 +29,8 @@ make the pull request to the vav repo
 
 ## Coding Guidelines
 create new files only when necessary
+All the files for frontend to work on are in the resource/rider and resource/u pages.
+Do not modify any existing code except if necessary
 try to make all work look excactly like the designs
 comment all codes when necessary
  eg
