@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\RidersController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('/', RidersController::class);
+Route::resource('/rider', RidersController::class);
+Route::resource('/u', RidersController::class);
